@@ -1,109 +1,43 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แนะนำตัว - อเนชา (ต้า)</title>
-    <!-- โหลดฟอนต์ Kanit จาก Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+# 🖐️ สวัสดีครับ ผมอเนชา (ต้า)
 
-        body {
-            font-family: 'Kanit', sans-serif;
-            background-color: #f7f9fa;
-            color: #2c3e50;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
+<p align="center">
+  <img src="https://via.placeholder.com/150/1e293b/ffffff?text=ต้า" alt="Anecha Profile" width="120" style="border-radius: 50%;">
+</p>
 
-        .card {
-            background-color: #ffffff;
-            width: 100%;
-            max-width: 420px;
-            padding: 40px 30px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            text-align: center;
-        }
+<p align="center">
+  <b>@nonama940</b><br>
+  หลงใหลการพัฒนาซอฟต์แวร์ เขียนโค้ดเพื่อสร้างสรรค์ และเล่นเกมเพื่อผ่อนคลาย 🚀🎮
+</p>
 
-        .profile-img {
-            width: 100px;
-            height: 100px;
-            background-color: #eef2f5;
-            color: #4a5568;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
-            font-weight: 600;
-            margin: 0 auto 20px auto;
-        }
+<p align="center">
+  <code>🎮 Gamer</code> &nbsp; <code>💻 Developer</code>
+</p>
 
-        h1 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            margin-bottom: 6px;
-        }
+---
 
-        .subtitle {
-            font-size: 0.95rem;
-            color: #718096;
-            margin-bottom: 24px;
-            font-weight: 300;
-        }
+### 📬 ช่องทางการติดต่อ
 
-        .bio {
-            font-size: 0.95rem;
-            line-height: 1.6;
-            color: #4a5568;
-            margin-bottom: 24px;
-        }
+<p align="center">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/nonama940?psln=NnlzcGFwbGxhdmNh" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  &nbsp;
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/share/1CHHXhWTjD/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+  &nbsp;
+  <!-- Discord -->
+  <a href="#">
+    <img src="https://img.shields.io/badge/Discord-oonaea._69304-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+  </a>
+  &nbsp;
+  <!-- Email -->
+  <a href="mailto:xnechaketuxrun2@gmail.com">
+    <img src="https://img.shields.io/badge/Email-xnechaketuxrun2--gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
-        .tag-container {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .tag {
-            background-color: #f1f5f9;
-            color: #334155;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 400;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="card">
-        <div class="profile-img">ต</div>
-        <h1>อเนชา (ต้า)</h1>
-        <p class="subtitle">Welcome to my profile site</p>
-        
-        <p class="bio">
-            สวัสดีครับ! ผมต้า ยินดีที่ได้รู้จักครับ <br>
-            หลงใหลการสร้างสรรค์สิ่งใหม่ๆ ผ่านหน้าจอ
-        </p>
-
-        <div class="tag-container">
-            <span class="tag">🎮 เล่นเกม</span>
-            <span class="tag">💻 เขียนโค้ด</span>
-        </div>
-    </div>
-
-</body>
-</html>
+---
+<p align="center"><i>© 2026 Anecha. All rights reserved.</i></p>
