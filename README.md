@@ -3,40 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>อเนชา (ต้า) | Linktree Portfolio</title>
-    
-    <!-- Google Fonts: Kanit -->
+    <title>แนะนำตัว - อเนชา (ต้า)</title>
+    <!-- โหลดฟอนต์ Kanit จาก Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
     
     <style>
-        :root {
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #0f172a;
-            --text-sub: #64748b;
-            --border-color: #e2e8f0;
-            --hover-bg: #f1f5f9;
-            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
-            --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
-            --shadow-hover: 0 12px 20px -3px rgba(0, 0, 0, 0.08);
-            --avatar-bg: #1e293b;
-            --avatar-text: #ffffff;
-            --tag-bg: #f1f5f9;
-            --tag-text: #475569;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
-        [data-theme="dark"] {
-            --bg-color: #0b0f17;
-            --card-bg: #161e2e;
-            --text-main: #f8fafc;
-            --text-sub: #94a3b8;
-            --border-color: #273549;
-            --hover-bg: #1f2d42;
-            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-            --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
-            --shadow-hover: 0 12px 24px -3px rgba(0, 0,
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f7f9fa;
+            color: #2c3e50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 420px;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            background-color: #eef2f5;
+            color: #4a5568;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0 auto 20px auto;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: #718096;
+            margin-bottom: 24px;
+            font-weight: 300;
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #4a5568;
+            margin-bottom: 24px;
+        }
+
+        .tag-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .tag {
+            background-color: #f1f5f9;
+            color: #334155;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">ต</div>
+        <h1>อเนชา (ต้า)</h1>
+        <p class="subtitle">Welcome to my profile site</p>
+        
+        <p class="bio">
+            สวัสดีครับ! ผมต้า ยินดีที่ได้รู้จักครับ <br>
+            หลงใหลการสร้างสรรค์สิ่งใหม่ๆ ผ่านหน้าจอ
+        </p>
+
+        <div class="tag-container">
+            <span class="tag">🎮 เล่นเกม</span>
+            <span class="tag">💻 เขียนโค้ด</span>
+        </div>
+    </div>
+
+</body>
+</html>
